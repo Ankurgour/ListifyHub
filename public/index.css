@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #A683E3  #E4E9FD 50%) */
+html {
+    background-color: #E4E9FD;  
+    background-image: -webkit-linear-gradient( 120deg,#c55678 50% , white 50%);
+    min-height: 100%;
+    font-family: 'helvetica neue';
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    /* background-color: black !important; */
+}
+
+
+
+.footer{
+   
+    color: white;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    bottom: 2rem;
+}
+.footer-padding{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .box {
+    max-width: 40%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #heading {
+    /* background-color: #A683E3; */
+    background-color: #c55678;
+    text-align: center;
+    
+  }
+
+  
+.Items{
+    /* display: inline; */
+    text-align: center;
+    /* font-size: 1rem; */
+    margin-left: 20px;
+    /* background-color: #c55678; */
+
+
+}
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  .Items{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+    width: auto;
+  }
+  .Items:last-child {
+    border-bottom: 0;
+  }
+ input[type = "text"]{
+    padding: 20px;
+    height: 60px;
+    /* /* min-width: 313px; */
+    
+    width: 313px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    border: none;
+
+    
+
+ }
+ button{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #c55678;
+    font-size: 20px;
+ }
+ button:hover{
+    color:#F1F1F1;
+    background-color: #c55678;
+    cursor: pointer;
+ }
+ input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #c55678;
+  }
+  input:checked+p{
+    text-decoration: line-through;
+    text-decoration-color: #c55678;
+  }
+ ::placeholder{
+    color :black;
+    opacity: 0.8;
+
+ }
