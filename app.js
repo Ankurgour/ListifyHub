@@ -34,7 +34,7 @@ const listSchema = mongoose.Schema({
 const List = mongoose.model('List',listSchema);
 
 const item1 = new Items({
-    name : "Welcome to the To-Do List",
+    name : "Welcome to the ListifyHub",
 
 })
 
